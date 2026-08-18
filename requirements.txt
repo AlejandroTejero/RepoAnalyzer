@@ -1,0 +1,8 @@
+perceval
+pandas
+altair
+marimo
+psycopg2-binary
+sqlalchemy
+PyGithub
+python-dotenv
