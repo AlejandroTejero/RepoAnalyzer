@@ -17,7 +17,8 @@ class Repo(Base):
     url = Column(String, unique=True, nullable=False)
 
     commits = relationship("Commit", back_populates="repo")
-
+    dependencies = relationship("Dependency", back_populates="repo")
+    
 
 class Author(Base):
     __tablename__ = "authors"
@@ -42,3 +43,17 @@ class Commit(Base):
 
     repo = relationship("Repo", back_populates="commits")
     author = relationship("Author", back_populates="commits")
+
+
+class Dependency(Base):
+    __tablename__ = "dependencies"
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String, nullable=False)
+    pinned_version = Column(String)
+    latest_version = Column(String)
+    latest_release_date = Column(DateTime)
+    checked_at = Column(DateTime, nullable=False)
+
+    repo_id = Column(Integer, ForeignKey("repos.id"), nullable=False)
+    repo = relationship("Repo", back_populates="dependencies")

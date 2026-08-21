@@ -1,0 +1,152 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.24.0",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "ef9144d5322ecb47131c104f3e316fb7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "5815bf6bafcea52e89f00a2581c709a8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"repo-analyzer-webbuilder-tfg\">Repo Analyzer \u2014 WebBuilder-TFG</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "b5bd9b8ad785b8020258110af29eede1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='vblA-0' random-id='5343bf81-3a37-5c47-ffd5-9ad0f2c0eb7d'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;hash&#92;&quot;:&#92;&quot;b63e28c1826edb3bdc81566f6029b8756e09f0cf&#92;&quot;,&#92;&quot;date&#92;&quot;:&#92;&quot;2026-06-24 16:10:08&#92;&quot;,&#92;&quot;author_id&#92;&quot;:1,&#92;&quot;repo_id&#92;&quot;:1},{&#92;&quot;hash&#92;&quot;:&#92;&quot;581bbfc600bf34d0e5eb1a3016535c8b4457d329&#92;&quot;,&#92;&quot;date&#92;&quot;:&#92;&quot;2026-06-14 14:51:17&#92;&quot;,&#92;&quot;author_id&#92;&quot;:1,&#92;&quot;repo_id&#92;&quot;:1},{&#92;&quot;hash&#92;&quot;:&#92;&quot;64302a69637f1366f7b8b6078eb48cb8b4d5d42c&#92;&quot;,&#92;&quot;date&#92;&quot;:&#92;&quot;2026-06-14 14:50:44&#92;&quot;,&#92;&quot;author_id&#92;&quot;:1,&#92;&quot;repo_id&#92;&quot;:1},{&#92;&quot;hash&#92;&quot;:&#92;&quot;080c170c6e349c11bbab8705972a770d682226fb&#92;&quot;,&#92;&quot;date&#92;&quot;:&#92;&quot;2026-06-14 14:49:47&#92;&quot;,&#92;&quot;author_id&#92;&quot;:1,&#92;&quot;repo_id&#92;&quot;:1},{&#92;&quot;hash&#92;&quot;:&#92;&quot;23ee0b530eddd723d0737e8b742df485e7477d12&#92;&quot;,&#92;&quot;date&#92;&quot;:&#92;&quot;2026-06-04 18:15:41&#92;&quot;,&#92;&quot;author_id&#92;&quot;:1,&#92;&quot;repo_id&#92;&quot;:1},{&#92;&quot;hash&#92;&quot;:&#92;&quot;e7fb9668f6cae0de4493b4ccd9952b65548d8fe0&#92;&quot;,&#92;&quot;date&#92;&quot;:&#92;&quot;2026-06-04 17:23:18&#92;&quot;,&#92;&quot;author_id&#92;&quot;:1,&#92;&quot;repo_id&#92;&quot;:1},{&#92;&quot;hash&#92;&quot;:&#92;&quot;aeca623e8688c7775b7160a54b1c88656895921c&#92;&quot;,&#92;&quot;date&#92;&quot;:&#92;&quot;2026-06-04 17:08:19&#92;&quot;,&#92;&quot;author_id&#92;&quot;:1,&#92;&quot;repo_id&#92;&quot;:1},{&#92;&quot;hash&#92;&quot;:&#92;&quot;a9baef14617fa588283ebcb6a3a66ee940aa9867&#92;&quot;,&#92;&quot;date&#92;&quot;:&#92;&quot;2026-06-04 16:05:39&#92;&quot;,&#92;&quot;author_id&#92;&quot;:1,&#92;&quot;repo_id&#92;&quot;:1},{&#92;&quot;hash&#92;&quot;:&#92;&quot;37c0528ead77ee2c569b246c902117177ee890c1&#92;&quot;,&#92;&quot;date&#92;&quot;:&#92;&quot;2026-06-02 19:30:57&#92;&quot;,&#92;&quot;author_id&#92;&quot;:1,&#92;&quot;repo_id&#92;&quot;:1},{&#92;&quot;hash&#92;&quot;:&#92;&quot;112c69e95bf5bcb3bfc1014a93e558f70113fdd6&#92;&quot;,&#92;&quot;date&#92;&quot;:&#92;&quot;2026-06-02 19:26:47&#92;&quot;,&#92;&quot;author_id&#92;&quot;:1,&#92;&quot;repo_id&#92;&quot;:1}]&quot;' data-total-rows='130' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;hash&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;date&quot;,[&quot;datetime&quot;,&quot;datetime64[us]&quot;]],[&quot;author_id&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;repo_id&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "22b6c78f40bdbe063640fca0f8115e43",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='bkHC-0' random-id='182a697e-2d28-0c4e-26d6-aad90676fb4e'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;week&#92;&quot;:&#92;&quot;2026-02-02 00:00:00&#92;&quot;,&#92;&quot;num_commits&#92;&quot;:3},{&#92;&quot;week&#92;&quot;:&#92;&quot;2026-02-09 00:00:00&#92;&quot;,&#92;&quot;num_commits&#92;&quot;:7},{&#92;&quot;week&#92;&quot;:&#92;&quot;2026-02-16 00:00:00&#92;&quot;,&#92;&quot;num_commits&#92;&quot;:15},{&#92;&quot;week&#92;&quot;:&#92;&quot;2026-02-23 00:00:00&#92;&quot;,&#92;&quot;num_commits&#92;&quot;:9},{&#92;&quot;week&#92;&quot;:&#92;&quot;2026-03-02 00:00:00&#92;&quot;,&#92;&quot;num_commits&#92;&quot;:6},{&#92;&quot;week&#92;&quot;:&#92;&quot;2026-03-09 00:00:00&#92;&quot;,&#92;&quot;num_commits&#92;&quot;:1},{&#92;&quot;week&#92;&quot;:&#92;&quot;2026-03-16 00:00:00&#92;&quot;,&#92;&quot;num_commits&#92;&quot;:3},{&#92;&quot;week&#92;&quot;:&#92;&quot;2026-03-23 00:00:00&#92;&quot;,&#92;&quot;num_commits&#92;&quot;:5},{&#92;&quot;week&#92;&quot;:&#92;&quot;2026-03-30 00:00:00&#92;&quot;,&#92;&quot;num_commits&#92;&quot;:6},{&#92;&quot;week&#92;&quot;:&#92;&quot;2026-04-06 00:00:00&#92;&quot;,&#92;&quot;num_commits&#92;&quot;:21}]&quot;' data-total-rows='18' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;week&quot;,[&quot;datetime&quot;,&quot;datetime64[us]&quot;]],[&quot;num_commits&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "3cb878393a54e36f5688acf7b30fa91a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='8125f225-4ece-172e-c3ac-1b43e48e5834'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;week&#92;&quot;:&#92;&quot;2026-02-02 00:00:00&#92;&quot;,&#92;&quot;autores_activos&#92;&quot;:1},{&#92;&quot;week&#92;&quot;:&#92;&quot;2026-02-09 00:00:00&#92;&quot;,&#92;&quot;autores_activos&#92;&quot;:1},{&#92;&quot;week&#92;&quot;:&#92;&quot;2026-02-16 00:00:00&#92;&quot;,&#92;&quot;autores_activos&#92;&quot;:1},{&#92;&quot;week&#92;&quot;:&#92;&quot;2026-02-23 00:00:00&#92;&quot;,&#92;&quot;autores_activos&#92;&quot;:1},{&#92;&quot;week&#92;&quot;:&#92;&quot;2026-03-02 00:00:00&#92;&quot;,&#92;&quot;autores_activos&#92;&quot;:1},{&#92;&quot;week&#92;&quot;:&#92;&quot;2026-03-09 00:00:00&#92;&quot;,&#92;&quot;autores_activos&#92;&quot;:1},{&#92;&quot;week&#92;&quot;:&#92;&quot;2026-03-16 00:00:00&#92;&quot;,&#92;&quot;autores_activos&#92;&quot;:1},{&#92;&quot;week&#92;&quot;:&#92;&quot;2026-03-23 00:00:00&#92;&quot;,&#92;&quot;autores_activos&#92;&quot;:1},{&#92;&quot;week&#92;&quot;:&#92;&quot;2026-03-30 00:00:00&#92;&quot;,&#92;&quot;autores_activos&#92;&quot;:1},{&#92;&quot;week&#92;&quot;:&#92;&quot;2026-04-06 00:00:00&#92;&quot;,&#92;&quot;autores_activos&#92;&quot;:1}]&quot;' data-total-rows='18' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;week&quot;,[&quot;datetime&quot;,&quot;datetime64[us]&quot;]],[&quot;autores_activos&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "2a13bf38efdab84f41d19644f157682a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/vnd.vegalite.v6+json": "{\n  \"$schema\": \"https://vega.github.io/schema/vega-lite/v6.4.1.json\",\n  \"config\": {\n    \"view\": {\n      \"continuousHeight\": 300,\n      \"continuousWidth\": 300\n    }\n  },\n  \"data\": {\n    \"name\": \"data-328741c3be7189a926d7c4dc10254898\"\n  },\n  \"datasets\": {\n    \"data-328741c3be7189a926d7c4dc10254898\": [\n      {\n        \"num_commits\": 3,\n        \"week\": \"2026-02-02T00:00:00\"\n      },\n      {\n        \"num_commits\": 7,\n        \"week\": \"2026-02-09T00:00:00\"\n      },\n      {\n        \"num_commits\": 15,\n        \"week\": \"2026-02-16T00:00:00\"\n      },\n      {\n        \"num_commits\": 9,\n        \"week\": \"2026-02-23T00:00:00\"\n      },\n      {\n        \"num_commits\": 6,\n        \"week\": \"2026-03-02T00:00:00\"\n      },\n      {\n        \"num_commits\": 1,\n        \"week\": \"2026-03-09T00:00:00\"\n      },\n      {\n        \"num_commits\": 3,\n        \"week\": \"2026-03-16T00:00:00\"\n      },\n      {\n        \"num_commits\": 5,\n        \"week\": \"2026-03-23T00:00:00\"\n      },\n      {\n        \"num_commits\": 6,\n        \"week\": \"2026-03-30T00:00:00\"\n      },\n      {\n        \"num_commits\": 21,\n        \"week\": \"2026-04-06T00:00:00\"\n      },\n      {\n        \"num_commits\": 11,\n        \"week\": \"2026-04-13T00:00:00\"\n      },\n      {\n        \"num_commits\": 5,\n        \"week\": \"2026-04-20T00:00:00\"\n      },\n      {\n        \"num_commits\": 1,\n        \"week\": \"2026-05-11T00:00:00\"\n      },\n      {\n        \"num_commits\": 4,\n        \"week\": \"2026-05-18T00:00:00\"\n      },\n      {\n        \"num_commits\": 12,\n        \"week\": \"2026-05-25T00:00:00\"\n      },\n      {\n        \"num_commits\": 17,\n        \"week\": \"2026-06-01T00:00:00\"\n      },\n      {\n        \"num_commits\": 3,\n        \"week\": \"2026-06-08T00:00:00\"\n      },\n      {\n        \"num_commits\": 1,\n        \"week\": \"2026-06-22T00:00:00\"\n      }\n    ]\n  },\n  \"encoding\": {\n    \"tooltip\": [\n      {\n        \"field\": \"week\",\n        \"type\": \"temporal\"\n      },\n      {\n        \"field\": \"num_commits\",\n        \"type\": \"quantitative\"\n      }\n    ],\n    \"x\": {\n      \"field\": \"week\",\n      \"title\": \"Semana\",\n      \"type\": \"temporal\"\n    },\n    \"y\": {\n      \"field\": \"num_commits\",\n      \"title\": \"Commits\",\n      \"type\": \"quantitative\"\n    }\n  },\n  \"mark\": {\n    \"type\": \"bar\"\n  },\n  \"title\": \"Commits por semana\",\n  \"usermeta\": {\n    \"embedOptions\": {}\n  },\n  \"width\": 600\n}"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "4fae0eaf6b07760098a4a6632e26812b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/vnd.vegalite.v6+json": "{\n  \"$schema\": \"https://vega.github.io/schema/vega-lite/v6.4.1.json\",\n  \"config\": {\n    \"view\": {\n      \"continuousHeight\": 300,\n      \"continuousWidth\": 300\n    }\n  },\n  \"data\": {\n    \"name\": \"data-7f62e9f49d08dc5cb28afd819d0afeff\"\n  },\n  \"datasets\": {\n    \"data-7f62e9f49d08dc5cb28afd819d0afeff\": [\n      {\n        \"autores_activos\": 1,\n        \"week\": \"2026-02-02T00:00:00\"\n      },\n      {\n        \"autores_activos\": 1,\n        \"week\": \"2026-02-09T00:00:00\"\n      },\n      {\n        \"autores_activos\": 1,\n        \"week\": \"2026-02-16T00:00:00\"\n      },\n      {\n        \"autores_activos\": 1,\n        \"week\": \"2026-02-23T00:00:00\"\n      },\n      {\n        \"autores_activos\": 1,\n        \"week\": \"2026-03-02T00:00:00\"\n      },\n      {\n        \"autores_activos\": 1,\n        \"week\": \"2026-03-09T00:00:00\"\n      },\n      {\n        \"autores_activos\": 1,\n        \"week\": \"2026-03-16T00:00:00\"\n      },\n      {\n        \"autores_activos\": 1,\n        \"week\": \"2026-03-23T00:00:00\"\n      },\n      {\n        \"autores_activos\": 1,\n        \"week\": \"2026-03-30T00:00:00\"\n      },\n      {\n        \"autores_activos\": 1,\n        \"week\": \"2026-04-06T00:00:00\"\n      },\n      {\n        \"autores_activos\": 1,\n        \"week\": \"2026-04-13T00:00:00\"\n      },\n      {\n        \"autores_activos\": 1,\n        \"week\": \"2026-04-20T00:00:00\"\n      },\n      {\n        \"autores_activos\": 1,\n        \"week\": \"2026-05-11T00:00:00\"\n      },\n      {\n        \"autores_activos\": 1,\n        \"week\": \"2026-05-18T00:00:00\"\n      },\n      {\n        \"autores_activos\": 1,\n        \"week\": \"2026-05-25T00:00:00\"\n      },\n      {\n        \"autores_activos\": 1,\n        \"week\": \"2026-06-01T00:00:00\"\n      },\n      {\n        \"autores_activos\": 1,\n        \"week\": \"2026-06-08T00:00:00\"\n      },\n      {\n        \"autores_activos\": 1,\n        \"week\": \"2026-06-22T00:00:00\"\n      }\n    ]\n  },\n  \"encoding\": {\n    \"tooltip\": [\n      {\n        \"field\": \"week\",\n        \"type\": \"temporal\"\n      },\n      {\n        \"field\": \"autores_activos\",\n        \"type\": \"quantitative\"\n      }\n    ],\n    \"x\": {\n      \"field\": \"week\",\n      \"title\": \"Semana\",\n      \"type\": \"temporal\"\n    },\n    \"y\": {\n      \"field\": \"autores_activos\",\n      \"title\": \"Autores activos\",\n      \"type\": \"quantitative\"\n    }\n  },\n  \"mark\": {\n    \"point\": true,\n    \"type\": \"line\"\n  },\n  \"title\": \"Autores activos por semana\",\n  \"usermeta\": {\n    \"embedOptions\": {}\n  },\n  \"width\": 600\n}"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "f204dc967a6162c47db7d97ce1e94286",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"dependencias\">Dependencias</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "58e3b89210db2ca60db7afbf5e0ab4cb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "00c9405c47e6f90990436c13a1c96478",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='RGSE-0' random-id='fb3b0432-0a0f-6fa0-70fa-ad8dedfd4c49'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:0,&#92;&quot;name&#92;&quot;:&#92;&quot;django&#92;&quot;,&#92;&quot;pinned_version&#92;&quot;:&#92;&quot;&#92;u003e=5.1&#92;&quot;,&#92;&quot;latest_version&#92;&quot;:&#92;&quot;6.1&#92;&quot;,&#92;&quot;diferencia&#92;&quot;:&#92;&quot;major&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:7,&#92;&quot;name&#92;&quot;:&#92;&quot;gunicorn&#92;&quot;,&#92;&quot;pinned_version&#92;&quot;:&#92;&quot;&#92;u003e=21.2&#92;&quot;,&#92;&quot;latest_version&#92;&quot;:&#92;&quot;26.1.0&#92;&quot;,&#92;&quot;diferencia&#92;&quot;:&#92;&quot;major&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:6,&#92;&quot;name&#92;&quot;:&#92;&quot;xmltodict&#92;&quot;,&#92;&quot;pinned_version&#92;&quot;:&#92;&quot;&#92;u003e=0.13&#92;&quot;,&#92;&quot;latest_version&#92;&quot;:&#92;&quot;1.0.4&#92;&quot;,&#92;&quot;diferencia&#92;&quot;:&#92;&quot;major&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:1,&#92;&quot;name&#92;&quot;:&#92;&quot;python-dotenv&#92;&quot;,&#92;&quot;pinned_version&#92;&quot;:&#92;&quot;&#92;u003e=1.0&#92;&quot;,&#92;&quot;latest_version&#92;&quot;:&#92;&quot;1.2.3&#92;&quot;,&#92;&quot;diferencia&#92;&quot;:&#92;&quot;minor&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:4,&#92;&quot;name&#92;&quot;:&#92;&quot;requests&#92;&quot;,&#92;&quot;pinned_version&#92;&quot;:&#92;&quot;&#92;u003e=2.28&#92;&quot;,&#92;&quot;latest_version&#92;&quot;:&#92;&quot;2.34.2&#92;&quot;,&#92;&quot;diferencia&#92;&quot;:&#92;&quot;minor&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:8,&#92;&quot;name&#92;&quot;:&#92;&quot;whitenoise&#92;&quot;,&#92;&quot;pinned_version&#92;&quot;:&#92;&quot;&#92;u003e=6.6&#92;&quot;,&#92;&quot;latest_version&#92;&quot;:&#92;&quot;6.12.0&#92;&quot;,&#92;&quot;diferencia&#92;&quot;:&#92;&quot;minor&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:9,&#92;&quot;name&#92;&quot;:&#92;&quot;django-allauth&#92;&quot;,&#92;&quot;pinned_version&#92;&quot;:&#92;&quot;&#92;u003e=65.0&#92;&quot;,&#92;&quot;latest_version&#92;&quot;:&#92;&quot;65.19.1&#92;&quot;,&#92;&quot;diferencia&#92;&quot;:&#92;&quot;minor&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:2,&#92;&quot;name&#92;&quot;:&#92;&quot;psycopg2-binary&#92;&quot;,&#92;&quot;pinned_version&#92;&quot;:&#92;&quot;&#92;u003e=2.9&#92;&quot;,&#92;&quot;latest_version&#92;&quot;:&#92;&quot;2.9.12&#92;&quot;,&#92;&quot;diferencia&#92;&quot;:&#92;&quot;patch&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:5,&#92;&quot;name&#92;&quot;:&#92;&quot;defusedxml&#92;&quot;,&#92;&quot;pinned_version&#92;&quot;:&#92;&quot;&#92;u003e=0.7&#92;&quot;,&#92;&quot;latest_version&#92;&quot;:&#92;&quot;0.7.1&#92;&quot;,&#92;&quot;diferencia&#92;&quot;:&#92;&quot;patch&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:3,&#92;&quot;name&#92;&quot;:&#92;&quot;django-encrypted-model-fields&#92;&quot;,&#92;&quot;pinned_version&#92;&quot;:&#92;&quot;&#92;u003e=0.6&#92;&quot;,&#92;&quot;latest_version&#92;&quot;:&#92;&quot;0.6.5&#92;&quot;,&#92;&quot;diferencia&#92;&quot;:&#92;&quot;patch&#92;&quot;}]&quot;' data-total-rows='10' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;pinned_version&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;latest_version&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;diferencia&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "7b9ebf14cc24b36eb4699dc1176ead7b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/vnd.vegalite.v6+json": "{\n  \"$schema\": \"https://vega.github.io/schema/vega-lite/v6.4.1.json\",\n  \"config\": {\n    \"view\": {\n      \"continuousHeight\": 300,\n      \"continuousWidth\": 300\n    }\n  },\n  \"data\": {\n    \"name\": \"data-453e85c21e6f2c27ac88fbf581ca8a80\"\n  },\n  \"datasets\": {\n    \"data-453e85c21e6f2c27ac88fbf581ca8a80\": [\n      {\n        \"diferencia\": \"major\",\n        \"latest_release_date\": \"2026-08-05T19:21:47.285453\",\n        \"latest_version\": \"6.1\",\n        \"name\": \"django\",\n        \"outdated\": true,\n        \"pinned_version\": \">=5.1\"\n      },\n      {\n        \"diferencia\": \"minor\",\n        \"latest_release_date\": \"2026-08-16T16:54:52.473346\",\n        \"latest_version\": \"1.2.3\",\n        \"name\": \"python-dotenv\",\n        \"outdated\": true,\n        \"pinned_version\": \">=1.0\"\n      },\n      {\n        \"diferencia\": \"patch\",\n        \"latest_release_date\": \"2026-04-20T23:33:31.363518\",\n        \"latest_version\": \"2.9.12\",\n        \"name\": \"psycopg2-binary\",\n        \"outdated\": true,\n        \"pinned_version\": \">=2.9\"\n      },\n      {\n        \"diferencia\": \"patch\",\n        \"latest_release_date\": \"2022-02-24T22:52:13.955668\",\n        \"latest_version\": \"0.6.5\",\n        \"name\": \"django-encrypted-model-fields\",\n        \"outdated\": true,\n        \"pinned_version\": \">=0.6\"\n      },\n      {\n        \"diferencia\": \"minor\",\n        \"latest_release_date\": \"2026-05-14T19:25:26.443000\",\n        \"latest_version\": \"2.34.2\",\n        \"name\": \"requests\",\n        \"outdated\": true,\n        \"pinned_version\": \">=2.28\"\n      },\n      {\n        \"diferencia\": \"patch\",\n        \"latest_release_date\": \"2021-03-08T10:59:24.450195\",\n        \"latest_version\": \"0.7.1\",\n        \"name\": \"defusedxml\",\n        \"outdated\": true,\n        \"pinned_version\": \">=0.7\"\n      },\n      {\n        \"diferencia\": \"major\",\n        \"latest_release_date\": \"2026-02-22T02:21:21.039836\",\n        \"latest_version\": \"1.0.4\",\n        \"name\": \"xmltodict\",\n        \"outdated\": true,\n        \"pinned_version\": \">=0.13\"\n      },\n      {\n        \"diferencia\": \"major\",\n        \"latest_release_date\": \"2026-08-18T11:49:38.001366\",\n        \"latest_version\": \"26.1.0\",\n        \"name\": \"gunicorn\",\n        \"outdated\": true,\n        \"pinned_version\": \">=21.2\"\n      },\n      {\n        \"diferencia\": \"minor\",\n        \"latest_release_date\": \"2026-02-27T00:05:40.086572\",\n        \"latest_version\": \"6.12.0\",\n        \"name\": \"whitenoise\",\n        \"outdated\": true,\n        \"pinned_version\": \">=6.6\"\n      },\n      {\n        \"diferencia\": \"minor\",\n        \"latest_release_date\": \"2026-08-13T10:02:26.339280\",\n        \"latest_version\": \"65.19.1\",\n        \"name\": \"django-allauth\",\n        \"outdated\": true,\n        \"pinned_version\": \">=65.0\"\n      }\n    ]\n  },\n  \"encoding\": {\n    \"color\": {\n      \"field\": \"diferencia\",\n      \"legend\": {\n        \"title\": \"Gravedad\"\n      },\n      \"scale\": {\n        \"domain\": [\n          \"major\",\n          \"minor\",\n          \"patch\",\n          \"al d\u00eda\"\n        ],\n        \"range\": [\n          \"#d62728\",\n          \"#ff7f0e\",\n          \"#ffdd57\",\n          \"#2ca02c\"\n        ]\n      },\n      \"type\": \"nominal\"\n    },\n    \"tooltip\": [\n      {\n        \"field\": \"name\",\n        \"type\": \"nominal\"\n      },\n      {\n        \"field\": \"pinned_version\",\n        \"type\": \"nominal\"\n      },\n      {\n        \"field\": \"latest_version\",\n        \"type\": \"nominal\"\n      },\n      {\n        \"field\": \"diferencia\",\n        \"type\": \"nominal\"\n      }\n    ],\n    \"x\": {\n      \"field\": \"name\",\n      \"sort\": \"-y\",\n      \"title\": \"Dependencia\",\n      \"type\": \"nominal\"\n    },\n    \"y\": {\n      \"field\": \"diferencia\",\n      \"title\": \"Estado\",\n      \"type\": \"nominal\"\n    }\n  },\n  \"mark\": {\n    \"type\": \"bar\"\n  },\n  \"title\": \"Estado de las dependencias\",\n  \"usermeta\": {\n    \"embedOptions\": {}\n  },\n  \"width\": 600\n}"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
