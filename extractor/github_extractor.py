@@ -1,4 +1,5 @@
 import os
+import sys
 from datetime import datetime, timezone
 from github import Github
 from dotenv import load_dotenv
@@ -75,4 +76,10 @@ def extract_commits(repo_owner, repo_name):
 
 
 if __name__ == "__main__":
-    extract_commits("AlejandroTejero", "WebBuilder-TFG")
+    if len(sys.argv) != 3:
+        print("Uso: python3 -m extractor.github_extractor <owner> <repo>")
+        sys.exit(1)
+
+    repo_owner = sys.argv[1]
+    repo_name = sys.argv[2]
+    extract_commits(repo_owner, repo_name)

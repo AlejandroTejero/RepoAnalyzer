@@ -1,3 +1,5 @@
+import sys
+
 import re
 from datetime import datetime, timezone
 
@@ -109,4 +111,10 @@ def extract_dependencies(repo_owner, repo_name):
 
 
 if __name__ == "__main__":
-    extract_dependencies("AlejandroTejero", "WebBuilder-TFG")
+    if len(sys.argv) != 3:
+        print("Uso: python3 -m extractor.dependency_extractor <owner> <repo>")
+        sys.exit(1)
+
+    repo_owner = sys.argv[1]
+    repo_name = sys.argv[2]
+    extract_dependencies(repo_owner, repo_name)
